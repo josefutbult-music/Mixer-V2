@@ -2413,6 +2413,20 @@ Potentiometers 1/40W 100K Ohms 20% 9mm ROTARY POT</description>
 <pinref part="U2" gate="G$1" pin="P$20"/>
 </segment>
 </net>
+<net name="LED_RED" class="0">
+<segment>
+<wire x1="264.16" y1="144.78" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
+<label x="292.1" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U2" gate="G$1" pin="P$21"/>
+</segment>
+</net>
+<net name="LED_GREEN" class="0">
+<segment>
+<wire x1="264.16" y1="147.32" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
+<label x="292.1" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U2" gate="G$1" pin="P$22"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

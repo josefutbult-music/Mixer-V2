@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -649,7 +649,7 @@ design rules under a new name.</description>
 <attribute name="LINK" value="https://www.mouser.se/ProductDetail/BI-Technologies-TT-Electronics/P0915N-QC15AR100K?qs=xIkB7y1OTopi6Zs8qG7IZg%3D%3D" x="8" y="145" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSERNR" value="858-P0915NQC15AR100K" x="8" y="145" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="P0915N-QC15AR100K" x="8" y="145" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.825" y="102.335" size="1.27" layer="21"/>
+<attribute name="NAME" x="19.825" y="102.335" size="1.27" layer="21"/>
 <attribute name="SUPPLIER" value="Mouser" x="8" y="145" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CH1_GAIN" library="lib" package="3296W" value="A100k" x="37" y="97" smashed="yes" rot="R270">
@@ -1086,6 +1086,12 @@ design rules under a new name.</description>
 <contactref element="U2" pad="20"/>
 <contactref element="MON_IN" pad="P$6"/>
 <wire x1="83.54" y1="86.46" x2="105.27" y2="62.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_RED">
+<contactref element="U2" pad="21"/>
+</signal>
+<signal name="LED_GREEN">
+<contactref element="U2" pad="22"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
