@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1226,6 +1226,69 @@ chip</description>
 <wire x1="-9.906" y1="-8.636" x2="-9.906" y2="8.636" width="0.127" layer="21"/>
 <text x="-3.556" y="9.398" size="1.016" layer="21">&gt;NAME</text>
 </package>
+<package name="SOP65P777X173-20N" urn="urn:adsk.eagle:footprint:29094676/1" locally_modified="yes">
+<description>20-SOP, 0.65 mm pitch, 7.78 mm span, 7.20 X 5.29 X 1.73 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 7.78 mm span with body size 7.20 X 5.29 X 1.73 mm&lt;/p&gt;</description>
+<circle x="-3.501" y="3.6697" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.69" y1="3.4197" x2="-2.69" y2="3.665" width="0.12" layer="21"/>
+<wire x1="-2.69" y1="3.665" x2="2.69" y2="3.665" width="0.12" layer="21"/>
+<wire x1="2.69" y1="3.665" x2="2.69" y2="3.4197" width="0.12" layer="21"/>
+<wire x1="-2.69" y1="-3.4197" x2="-2.69" y2="-3.665" width="0.12" layer="21"/>
+<wire x1="-2.69" y1="-3.665" x2="2.69" y2="-3.665" width="0.12" layer="21"/>
+<wire x1="2.69" y1="-3.665" x2="2.69" y2="-3.4197" width="0.12" layer="21"/>
+<wire x1="2.69" y1="-3.665" x2="-2.69" y2="-3.665" width="0.12" layer="51"/>
+<wire x1="-2.69" y1="-3.665" x2="-2.69" y2="3.665" width="0.12" layer="51"/>
+<wire x1="-2.69" y1="3.665" x2="2.69" y2="3.665" width="0.12" layer="51"/>
+<wire x1="2.69" y1="3.665" x2="2.69" y2="-3.665" width="0.12" layer="51"/>
+<smd name="1" x="-3.4621" y="2.925" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="2" x="-3.4621" y="2.275" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="3" x="-3.4621" y="1.625" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="4" x="-3.4621" y="0.975" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="5" x="-3.4621" y="0.325" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="6" x="-3.4621" y="-0.325" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="7" x="-3.4621" y="-0.975" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="8" x="-3.4621" y="-1.625" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="9" x="-3.4621" y="-2.275" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="10" x="-3.4621" y="-2.925" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="11" x="3.4621" y="-2.925" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="12" x="3.4621" y="-2.275" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="13" x="3.4621" y="-1.625" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="14" x="3.4621" y="-0.975" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="15" x="3.4621" y="-0.325" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="16" x="3.4621" y="0.325" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="17" x="3.4621" y="0.975" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="18" x="3.4621" y="1.625" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="19" x="3.4621" y="2.275" dx="1.6997" dy="0.4815" layer="1"/>
+<smd name="20" x="3.4621" y="2.925" dx="1.6997" dy="0.4815" layer="1"/>
+<text x="0" y="4.5547" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="SOP50P490X110-10N" urn="urn:adsk.eagle:footprint:29094744/1">
+<description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
+&lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
+<circle x="-2.205" y="1.6458" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.525" y1="1.3958" x2="-1.525" y2="1.525" width="0.12" layer="21"/>
+<wire x1="-1.525" y1="1.525" x2="1.525" y2="1.525" width="0.12" layer="21"/>
+<wire x1="1.525" y1="1.525" x2="1.525" y2="1.3958" width="0.12" layer="21"/>
+<wire x1="-1.525" y1="-1.3958" x2="-1.525" y2="-1.525" width="0.12" layer="21"/>
+<wire x1="-1.525" y1="-1.525" x2="1.525" y2="-1.525" width="0.12" layer="21"/>
+<wire x1="1.525" y1="-1.525" x2="1.525" y2="-1.3958" width="0.12" layer="21"/>
+<wire x1="1.525" y1="-1.525" x2="-1.525" y2="-1.525" width="0.12" layer="51"/>
+<wire x1="-1.525" y1="-1.525" x2="-1.525" y2="1.525" width="0.12" layer="51"/>
+<wire x1="-1.525" y1="1.525" x2="1.525" y2="1.525" width="0.12" layer="51"/>
+<wire x1="1.525" y1="1.525" x2="1.525" y2="-1.525" width="0.12" layer="51"/>
+<smd name="1" x="-2.1496" y="1" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="2" x="-2.1496" y="0.5" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="3" x="-2.1496" y="0" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="4" x="-2.1496" y="-0.5" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="5" x="-2.1496" y="-1" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="6" x="2.1496" y="-1" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="7" x="2.1496" y="-0.5" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="8" x="2.1496" y="0" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="9" x="2.1496" y="0.5" dx="1.4709" dy="0.2835" layer="1"/>
+<smd name="10" x="2.1496" y="1" dx="1.4709" dy="0.2835" layer="1"/>
+<text x="0" y="2.5308" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.16" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIP762W53P254L1969H508Q14B" urn="urn:adsk.eagle:package:24578917/1" type="model">
@@ -1240,6 +1303,20 @@ chip</description>
 &lt;p&gt;Double-row (2X11), 22-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 27.94 X 5.08 X 8.38 mm, pin pattern - counter-clockwise from bottom left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRV22W64P254_2X11_2794X508X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP65P777X173-20N" urn="urn:adsk.eagle:package:29094672/1" type="model">
+<description>20-SOP, 0.65 mm pitch, 7.78 mm span, 7.20 X 5.29 X 1.73 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 7.78 mm span with body size 7.20 X 5.29 X 1.73 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P777X173-20N"/>
+</packageinstances>
+</package3d>
+<package3d name="SOP50P490X110-10N" urn="urn:adsk.eagle:package:29094695/1" type="model">
+<description>10-SOP, 0.50 mm pitch, 4.90 mm span, 3.00 X 3.00 X 1.10 mm body
+&lt;p&gt;10-pin SOP package with 0.50 mm pitch, 4.90 mm span with body size 3.00 X 3.00 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP50P490X110-10N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1573,6 +1650,51 @@ chip</description>
 <pin name="3" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
 <text x="-2.54" y="5.08" size="1.016" layer="94">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.016" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="ANALOG_SELECTOR">
+<pin name="IN1" x="15.24" y="30.48" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="IN2" x="15.24" y="25.4" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="IN3" x="15.24" y="20.32" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="IN4" x="15.24" y="15.24" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="COM1" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="COM2" x="15.24" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="COM3" x="15.24" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="COM4" x="15.24" y="-30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="NC1" x="-15.24" y="12.7" visible="pin" length="middle"/>
+<pin name="NO1" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="NC2" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="NO2" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="NC3" x="-15.24" y="-12.7" visible="pin" length="middle"/>
+<pin name="NO3" x="-15.24" y="-17.78" visible="pin" length="middle"/>
+<pin name="NC4" x="-15.24" y="-25.4" visible="pin" length="middle"/>
+<pin name="NO4" x="-15.24" y="-30.48" visible="pin" length="middle"/>
+<pin name="GND" x="-15.24" y="20.32" visible="pin" length="middle" direction="sup"/>
+<pin name="V-" x="-15.24" y="25.4" visible="pin" length="middle" direction="sup"/>
+<pin name="V+" x="-15.24" y="30.48" visible="pin" length="middle" direction="pwr"/>
+<wire x1="-10.16" y1="33.02" x2="10.16" y2="33.02" width="0.254" layer="94"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-33.02" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
+<text x="-5.08" y="35.56" size="1.778" layer="94">&gt;NAME</text>
+<text x="-5.08" y="-35.56" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="2CH_ANALOG_SELECTOR">
+<pin name="NC1" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="NO1" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="NC2" x="-15.24" y="-10.16" visible="pin" length="middle"/>
+<pin name="NO2" x="-15.24" y="-15.24" visible="pin" length="middle"/>
+<pin name="COM1" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="COM2" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="ADD" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="INH" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="V+" x="-15.24" y="15.24" visible="pin" length="middle"/>
+<pin name="GND" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-2.54" y="20.32" size="1.27" layer="94">&gt;NAME</text>
+<text x="-2.54" y="-20.32" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2004,6 +2126,85 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </device>
 </devices>
 </deviceset>
+<deviceset name="ANALOG_SELECTOR" prefix="U">
+<description>&lt;h1&gt;Analog selector&lt;/h1&gt;
+
+Analog Switch ICs SWITCH 4X SPDT +/-5V 18OHM IND</description>
+<gates>
+<gate name="G$1" symbol="ANALOG_SELECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SSOP-20" package="SOP65P777X173-20N">
+<connects>
+<connect gate="G$1" pin="COM1" pad="3"/>
+<connect gate="G$1" pin="COM2" pad="8"/>
+<connect gate="G$1" pin="COM3" pad="13"/>
+<connect gate="G$1" pin="COM4" pad="18"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="IN1" pad="1"/>
+<connect gate="G$1" pin="IN2" pad="10"/>
+<connect gate="G$1" pin="IN3" pad="11"/>
+<connect gate="G$1" pin="IN4" pad="20"/>
+<connect gate="G$1" pin="NC1" pad="4"/>
+<connect gate="G$1" pin="NC2" pad="7"/>
+<connect gate="G$1" pin="NC3" pad="14"/>
+<connect gate="G$1" pin="NC4" pad="17"/>
+<connect gate="G$1" pin="NO1" pad="2"/>
+<connect gate="G$1" pin="NO2" pad="9"/>
+<connect gate="G$1" pin="NO3" pad="12"/>
+<connect gate="G$1" pin="NO4" pad="19"/>
+<connect gate="G$1" pin="V+" pad="16"/>
+<connect gate="G$1" pin="V-" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29094672/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LINK" value="https://www.mouser.se/ProductDetail/Renesas-Intersil/ISL43240IAZ?qs=9fLuogzTs8JpyGgSuWMglw%3D%3D" constant="no"/>
+<attribute name="MOUSERNR" value="968-ISL43240IAZ" constant="no"/>
+<attribute name="MPN" value="ISL43240IAZ" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2CH_ANALOG_SELECTOR" prefix="U">
+<description>&lt;h1&gt; Analog Selector &lt;/h1&gt;
+
+Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
+<gates>
+<gate name="G$1" symbol="2CH_ANALOG_SELECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MSOP-10" package="SOP50P490X110-10N">
+<connects>
+<connect gate="G$1" pin="ADD" pad="6"/>
+<connect gate="G$1" pin="COM1" pad="2"/>
+<connect gate="G$1" pin="COM2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="INH" pad="4"/>
+<connect gate="G$1" pin="NC1" pad="3"/>
+<connect gate="G$1" pin="NC2" pad="7"/>
+<connect gate="G$1" pin="NO1" pad="1"/>
+<connect gate="G$1" pin="NO2" pad="9"/>
+<connect gate="G$1" pin="V+" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29094695/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="LINK" value="https://www.mouser.se/ProductDetail/Renesas-Intersil/ISL43410IUZ?qs=9fLuogzTs8IhenJCAVgckg%3D%3D" constant="no"/>
+<attribute name="MOUSERNR" value="968-ISL43410IUZ" constant="no"/>
+<attribute name="MPN" value="ISL43410IUZ" constant="no"/>
+<attribute name="SUPPLIER" value="Mouser" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2016,7 +2217,7 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </class>
 </classes>
 <modules>
-<module name="CHANNEL_INPUT" prefix="CH" dx="30.48" dy="20.32">
+<module name="CHANNEL_INPUT" prefix="CH" dx="45.72" dy="20.32">
 <ports>
 <port name="VDD" side="top" coord="-2.54" direction="io"/>
 <port name="+9V" side="top" coord="-7.62" direction="io"/>
@@ -2027,6 +2228,9 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <port name="VOL1_P3" side="bottom" coord="-2.54" direction="io"/>
 <port name="GAIN1_P2" side="bottom" coord="2.54" direction="io"/>
 <port name="GAIN1_P3" side="bottom" coord="7.62" direction="io"/>
+<port name="SR-SELECT" side="left" coord="0" direction="io"/>
+<port name="SR-OUT" side="left" coord="5.08" direction="io"/>
+<port name="SR-BYPASS" side="left" coord="-5.08" direction="io"/>
 </ports>
 <variantdefs>
 </variantdefs>
@@ -2094,13 +2298,14 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="MPN" value="GRM187R61A226ME15D"/>
 <attribute name="SUPPLIER" value="Mouser"/>
 </part>
+<part name="R17" library="lib" deviceset="RESISTOR" device="" value="100R"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="63.5" y="185.42" size="1.778" layer="91">VEE = Phantom power</text>
 <text x="238.76" y="129.54" size="1.778" layer="91">Should be A100k</text>
-<text x="264.16" y="124.46" size="1.778" layer="91">Should be A100k</text>
+<text x="266.7" y="124.46" size="1.778" layer="91">Should be A100k</text>
 </plain>
 <instances>
 <instance part="IN" gate="G$1" x="55.88" y="149.86" smashed="yes" rot="R180">
@@ -2133,9 +2338,9 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="128.778" y="136.906" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="129.794" y="125.476" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U2" gate="G$3" x="299.72" y="137.16" smashed="yes">
-<attribute name="NAME" x="299.974" y="142.748" size="1.778" layer="95"/>
-<attribute name="VALUE" x="296.926" y="128.778" size="1.778" layer="96"/>
+<instance part="U2" gate="G$3" x="302.26" y="137.16" smashed="yes">
+<attribute name="NAME" x="302.514" y="142.748" size="1.778" layer="95"/>
+<attribute name="VALUE" x="299.466" y="128.778" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="G$4" x="228.6" y="149.86" smashed="yes">
 <attribute name="NAME" x="228.346" y="154.94" size="1.778" layer="95"/>
@@ -2184,8 +2389,8 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="155.956" y="154.1526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="149.098" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="266.7" y="134.62" smashed="yes" rot="R180">
-<attribute name="VALUE" x="268.605" y="131.445" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY3" gate="G$1" x="269.24" y="134.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="271.145" y="131.445" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R9" gate="G$1" x="116.84" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.0874" y="140.716" size="1.778" layer="95" rot="R90"/>
@@ -2248,9 +2453,9 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="219.2274" y="130.556" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="224.028" y="130.556" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R16" gate="G$1" x="246.38" y="149.86" smashed="yes">
-<attribute name="NAME" x="244.856" y="151.6126" size="1.778" layer="95"/>
-<attribute name="VALUE" x="243.84" y="146.558" size="1.778" layer="96"/>
+<instance part="R16" gate="G$1" x="264.16" y="149.86" smashed="yes">
+<attribute name="NAME" x="262.636" y="151.6126" size="1.778" layer="95"/>
+<attribute name="VALUE" x="261.62" y="146.558" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="73.66" y="76.2" smashed="yes">
 <attribute name="VALUE" x="71.755" y="79.375" size="1.778" layer="96"/>
@@ -2279,6 +2484,10 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="SUPPLIER" x="73.66" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MOUSERNR" x="73.66" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="73.66" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="R17" gate="G$1" x="246.38" y="149.86" smashed="yes">
+<attribute name="NAME" x="244.856" y="151.6126" size="1.778" layer="95"/>
+<attribute name="VALUE" x="243.84" y="146.558" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2395,8 +2604,8 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="SUPPLY2" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<wire x1="266.7" y1="137.16" x2="279.4" y2="137.16" width="0.1524" layer="91"/>
-<label x="269.24" y="137.16" size="1.778" layer="95"/>
+<wire x1="269.24" y1="137.16" x2="281.94" y2="137.16" width="0.1524" layer="91"/>
+<label x="271.78" y="137.16" size="1.778" layer="95"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -2422,18 +2631,17 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </net>
 <net name="VOL1_P3" class="0">
 <segment>
-<wire x1="266.7" y1="149.86" x2="266.7" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
-<label x="269.24" y="142.24" size="1.778" layer="95"/>
+<wire x1="269.24" y1="149.86" x2="269.24" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="142.24" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
+<label x="271.78" y="142.24" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="149.86" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VOL1_P2" class="0">
 <segment>
-<label x="269.24" y="139.7" size="1.778" layer="95"/>
+<label x="271.78" y="139.7" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$3" pin="IN+"/>
-<wire x1="294.64" y1="139.7" x2="266.7" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="139.7" x2="269.24" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -2464,13 +2672,13 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <net name="N$9" class="0">
 <segment>
 <pinref part="U2" gate="G$3" pin="IN-"/>
-<wire x1="294.64" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="134.62" x2="292.1" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="124.46" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="134.62" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="134.62" x2="294.64" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="124.46" x2="312.42" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$3" pin="OUT"/>
-<wire x1="309.88" y1="124.46" x2="309.88" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="137.16" x2="320.04" y2="137.16" width="0.1524" layer="91"/>
-<label x="314.96" y="137.16" size="1.778" layer="95"/>
+<wire x1="312.42" y1="124.46" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="137.16" x2="322.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="317.5" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -2529,11 +2737,11 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <segment>
 <wire x1="233.68" y1="127" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="139.7" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$4" pin="OUT"/>
-<wire x1="241.3" y1="139.7" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
 <label x="233.68" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$4" pin="OUT"/>
+<wire x1="241.3" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="139.7" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <junction x="241.3" y="149.86"/>
 </segment>
 </net>
@@ -2547,7 +2755,7 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <junction x="73.66" y="73.66"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="SR-BYPASS" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
@@ -2561,6 +2769,8 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="129.54" y1="165.1" x2="137.16" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="165.1" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
 <junction x="137.16" y="152.4"/>
+<wire x1="149.86" y1="152.4" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
+<label x="149.86" y="154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -2574,6 +2784,22 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SR-OUT" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="149.86" x2="254" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="254" y1="149.86" x2="254" y2="170.18" width="0.1524" layer="91"/>
+<label x="254" y="154.94" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="SR-SELECT" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="149.86" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="149.86" x2="256.54" y2="170.18" width="0.1524" layer="91"/>
+<label x="256.54" y="154.94" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
@@ -2904,6 +3130,36 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <part name="GND31" library="lib" deviceset="GND" device=""/>
 <part name="R82" library="lib" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R83" library="lib" deviceset="RESISTOR" device="" value="10k"/>
+<part name="U13" library="lib" deviceset="ANALOG_SELECTOR" device="SSOP-20" package3d_urn="urn:adsk.eagle:package:29094672/1" value="ISL43240IAZ"/>
+<part name="C31" library="lib" deviceset="CAPACITOR" device="C-0603" value="100n/16V">
+<attribute name="LINK" value="https://www.mouser.se/ProductDetail/Murata-Electronics/GRM187R61A226ME15D?qs=sGAEpiMZZMsh%252B1woXyUXjxHEpf2Q6q57J1Ind0WCnj4%3D"/>
+<attribute name="MOUSERNR" value="81-GRM187R61A226ME5D"/>
+<attribute name="MPN" value="GRM187R61A226ME15D"/>
+<attribute name="SUPPLIER" value="Mouser"/>
+</part>
+<part name="SUPPLY40" library="lib" deviceset="+9V" device=""/>
+<part name="GND32" library="lib" deviceset="GND" device=""/>
+<part name="GND33" library="lib" deviceset="GND" device=""/>
+<part name="U14" library="lib" deviceset="2CH_ANALOG_SELECTOR" device="MSOP-10" package3d_urn="urn:adsk.eagle:package:29094695/1" value="ISL43410IUZ"/>
+<part name="C32" library="lib" deviceset="CAPACITOR" device="C-0603" value="100n/16V">
+<attribute name="LINK" value="https://www.mouser.se/ProductDetail/Murata-Electronics/GRM187R61A226ME15D?qs=sGAEpiMZZMsh%252B1woXyUXjxHEpf2Q6q57J1Ind0WCnj4%3D"/>
+<attribute name="MOUSERNR" value="81-GRM187R61A226ME5D"/>
+<attribute name="MPN" value="GRM187R61A226ME15D"/>
+<attribute name="SUPPLIER" value="Mouser"/>
+</part>
+<part name="SUPPLY41" library="lib" deviceset="+9V" device=""/>
+<part name="GND34" library="lib" deviceset="GND" device=""/>
+<part name="GND35" library="lib" deviceset="GND" device=""/>
+<part name="GND36" library="lib" deviceset="GND" device=""/>
+<part name="R84" library="lib" deviceset="RESISTOR" device="" value="1k"/>
+<part name="GND37" library="lib" deviceset="GND" device=""/>
+<part name="GND38" library="lib" deviceset="GND" device=""/>
+<part name="C33" library="lib" deviceset="CAPACITOR" device="C-0603" value="10u / 16V">
+<attribute name="LINK" value="https://www.mouser.se/ProductDetail/Murata-Electronics/GRM187R61A226ME15D?qs=sGAEpiMZZMsh%252B1woXyUXjxHEpf2Q6q57J1Ind0WCnj4%3D"/>
+<attribute name="MOUSERNR" value="81-GRM187R61A226ME5D"/>
+<attribute name="MPN" value="GRM187R61A226ME15D"/>
+<attribute name="SUPPLIER" value="Mouser"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2911,14 +3167,14 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <plain>
 </plain>
 <moduleinsts>
-<moduleinst name="CH1" module="CHANNEL_INPUT" x="121.92" y="198.12">
-<attribute name="NAME" x="109.982" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
+<moduleinst name="CH1" module="CHANNEL_INPUT" x="86.36" y="198.12">
+<attribute name="NAME" x="74.422" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CH2" module="CHANNEL_INPUT" x="177.8" y="198.12">
-<attribute name="NAME" x="165.862" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
+<moduleinst name="CH2" module="CHANNEL_INPUT" x="187.96" y="198.12">
+<attribute name="NAME" x="176.022" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
-<moduleinst name="CH3" module="CHANNEL_INPUT" x="233.68" y="198.12">
-<attribute name="NAME" x="221.742" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
+<moduleinst name="CH3" module="CHANNEL_INPUT" x="287.02" y="198.12">
+<attribute name="NAME" x="275.082" y="212.09" size="2.032" layer="95" rot="R180" align="bottom-center"/>
 </moduleinst>
 </moduleinsts>
 <instances>
@@ -2928,105 +3184,126 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="SHEET" x="354.965" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="U$1" gate="G$1" x="307.34" y="6.35" smashed="yes"/>
-<instance part="SUPPLY1" gate="G$1" x="114.3" y="215.9" smashed="yes">
-<attribute name="VALUE" x="115.189" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY1" gate="G$1" x="78.74" y="215.9" smashed="yes">
+<attribute name="VALUE" x="79.629" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="119.38" y="215.9" smashed="yes">
-<attribute name="VALUE" x="120.015" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY2" gate="G$1" x="83.82" y="215.9" smashed="yes">
+<attribute name="VALUE" x="84.455" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="124.46" y="215.9" smashed="yes">
-<attribute name="VALUE" x="125.349" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY3" gate="G$1" x="88.9" y="215.9" smashed="yes">
+<attribute name="VALUE" x="89.789" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="129.54" y="215.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="130.048" y="218.948" size="1.778" layer="96" rot="R90"/>
+<instance part="GND1" gate="1" x="93.98" y="215.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="94.488" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="170.18" y="215.9" smashed="yes">
-<attribute name="VALUE" x="171.069" y="219.075" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="175.26" y="215.9" smashed="yes">
-<attribute name="VALUE" x="175.895" y="219.075" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="180.34" y="215.9" smashed="yes">
+<instance part="SUPPLY4" gate="G$1" x="180.34" y="215.9" smashed="yes">
 <attribute name="VALUE" x="181.229" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND2" gate="1" x="185.42" y="215.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="185.928" y="218.948" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY5" gate="G$1" x="185.42" y="215.9" smashed="yes">
+<attribute name="VALUE" x="186.055" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="226.06" y="215.9" smashed="yes">
-<attribute name="VALUE" x="226.949" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY6" gate="G$1" x="190.5" y="215.9" smashed="yes">
+<attribute name="VALUE" x="191.389" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="231.14" y="215.9" smashed="yes">
-<attribute name="VALUE" x="231.775" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="195.58" y="215.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="196.088" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="236.22" y="215.9" smashed="yes">
-<attribute name="VALUE" x="237.109" y="219.075" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY7" gate="G$1" x="279.4" y="215.9" smashed="yes">
+<attribute name="VALUE" x="280.289" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND3" gate="1" x="241.3" y="215.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="241.808" y="218.948" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY8" gate="G$1" x="284.48" y="215.9" smashed="yes">
+<attribute name="VALUE" x="285.115" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$1" x="111.76" y="121.92" smashed="yes">
-<attribute name="NAME" x="111.76" y="127.762" size="1.778" layer="95"/>
-<attribute name="VALUE" x="109.982" y="114.554" size="1.778" layer="96"/>
+<instance part="SUPPLY9" gate="G$1" x="289.56" y="215.9" smashed="yes">
+<attribute name="VALUE" x="290.449" y="219.075" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$2" x="111.76" y="93.98" smashed="yes">
-<attribute name="NAME" x="113.03" y="100.33" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.49" y="86.36" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="294.64" y="215.9" smashed="yes" rot="R180">
+<attribute name="VALUE" x="295.148" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$3" x="111.76" y="66.04" smashed="yes">
-<attribute name="NAME" x="110.49" y="72.39" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.49" y="58.42" size="1.778" layer="96"/>
+<instance part="U1" gate="G$1" x="177.8" y="119.38" smashed="yes">
+<attribute name="NAME" x="177.8" y="125.222" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.022" y="112.014" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$4" x="157.48" y="91.44" smashed="yes">
-<attribute name="NAME" x="156.21" y="97.79" size="1.778" layer="95"/>
-<attribute name="VALUE" x="156.21" y="83.82" size="1.778" layer="96"/>
+<instance part="U1" gate="G$2" x="177.8" y="91.44" smashed="yes">
+<attribute name="NAME" x="179.07" y="97.79" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="152.4" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="150.6474" y="69.596" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="155.448" y="69.596" size="1.778" layer="96" rot="R90"/>
+<instance part="U1" gate="G$3" x="177.8" y="63.5" smashed="yes">
+<attribute name="NAME" x="176.53" y="69.85" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="160.02" y="78.74" smashed="yes">
-<attribute name="NAME" x="158.496" y="80.4926" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.496" y="75.692" size="1.778" layer="96"/>
+<instance part="U1" gate="G$4" x="223.52" y="88.9" smashed="yes">
+<attribute name="NAME" x="222.25" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.25" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="152.4" y="63.5" smashed="yes">
-<attribute name="NAME" x="153.924" y="63.881" size="1.778" layer="95"/>
-<attribute name="VALUE" x="153.924" y="58.801" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="218.44" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="216.6874" y="67.056" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="221.488" y="67.056" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND5" gate="1" x="152.4" y="55.88" smashed="yes">
-<attribute name="VALUE" x="149.86" y="53.34" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="226.06" y="76.2" smashed="yes">
+<attribute name="NAME" x="224.536" y="77.9526" size="1.778" layer="95"/>
+<attribute name="VALUE" x="224.536" y="73.152" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="180.34" y="83.82" smashed="yes" rot="R180">
-<attribute name="VALUE" x="182.245" y="80.645" size="1.778" layer="96" rot="R180"/>
+<instance part="C1" gate="G$1" x="218.44" y="60.96" smashed="yes">
+<attribute name="NAME" x="219.964" y="61.341" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.964" y="56.261" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$5" x="279.4" y="93.98" smashed="yes">
-<attribute name="NAME" x="280.67" y="97.79" size="1.778" layer="95"/>
-<attribute name="VALUE" x="280.67" y="88.9" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="218.44" y="53.34" smashed="yes">
+<attribute name="VALUE" x="215.9" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="274.32" y="104.14" smashed="yes">
-<attribute name="VALUE" x="272.415" y="107.315" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="G$1" x="246.38" y="81.28" smashed="yes" rot="R180">
+<attribute name="VALUE" x="248.285" y="78.105" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND13" gate="1" x="274.32" y="83.82" smashed="yes">
-<attribute name="VALUE" x="271.78" y="81.28" size="1.778" layer="96"/>
+<instance part="U1" gate="G$5" x="309.88" y="91.44" smashed="yes">
+<attribute name="NAME" x="311.15" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="311.15" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="R52" gate="G$1" x="129.54" y="121.92" smashed="yes">
-<attribute name="NAME" x="128.016" y="123.6726" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="118.618" size="1.778" layer="96"/>
+<instance part="SUPPLY18" gate="G$1" x="304.8" y="101.6" smashed="yes">
+<attribute name="VALUE" x="302.895" y="104.775" size="1.778" layer="96"/>
 </instance>
-<instance part="R53" gate="G$1" x="129.54" y="93.98" smashed="yes">
-<attribute name="NAME" x="128.016" y="95.7326" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="90.678" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="304.8" y="81.28" smashed="yes">
+<attribute name="VALUE" x="302.26" y="78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="R54" gate="G$1" x="129.54" y="66.04" smashed="yes">
-<attribute name="NAME" x="128.016" y="67.7926" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="62.738" size="1.778" layer="96"/>
+<instance part="R52" gate="G$1" x="195.58" y="119.38" smashed="yes">
+<attribute name="NAME" x="194.056" y="121.1326" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.04" y="116.078" size="1.778" layer="96"/>
 </instance>
-<instance part="C27" gate="G$1" x="274.32" y="91.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="268.859" y="91.186" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="272.161" y="88.138" size="1.778" layer="96" rot="R90"/>
-<attribute name="MPN" x="274.32" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="SUPPLIER" x="274.32" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MOUSERNR" x="274.32" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="LINK" x="274.32" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R53" gate="G$1" x="195.58" y="91.44" smashed="yes">
+<attribute name="NAME" x="194.056" y="93.1926" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.04" y="88.138" size="1.778" layer="96"/>
+</instance>
+<instance part="R54" gate="G$1" x="195.58" y="63.5" smashed="yes">
+<attribute name="NAME" x="194.056" y="65.2526" size="1.778" layer="95"/>
+<attribute name="VALUE" x="193.04" y="60.198" size="1.778" layer="96"/>
+</instance>
+<instance part="C27" gate="G$1" x="304.8" y="88.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="299.339" y="88.646" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="302.641" y="85.598" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="304.8" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="304.8" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSERNR" x="304.8" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="304.8" y="88.9" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U13" gate="G$1" x="83.82" y="91.44" smashed="yes">
+<attribute name="NAME" x="81.28" y="127" size="1.778" layer="94"/>
+<attribute name="VALUE" x="76.2" y="53.34" size="1.778" layer="94"/>
+</instance>
+<instance part="C31" gate="G$1" x="63.5" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.039" y="126.746" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="61.341" y="123.698" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="63.5" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="63.5" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSERNR" x="63.5" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="63.5" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SUPPLY40" gate="G$1" x="50.8" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="47.117" y="122.555" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND32" gate="1" x="63.5" y="137.16" smashed="yes" rot="R180">
+<attribute name="VALUE" x="66.04" y="139.7" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND33" gate="1" x="66.04" y="114.3" smashed="yes" rot="R270">
+<attribute name="VALUE" x="59.436" y="113.284" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3048,10 +3325,19 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="+9V"/>
 <pinref part="U1" gate="G$5" pin="V+"/>
-<wire x1="274.32" y1="101.6" x2="279.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="101.6" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
-<junction x="274.32" y="101.6"/>
+<wire x1="304.8" y1="99.06" x2="304.8" y2="93.98" width="0.1524" layer="91"/>
+<junction x="304.8" y="99.06"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="V+"/>
+<wire x1="68.58" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="121.92" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
+<junction x="63.5" y="121.92"/>
+<pinref part="SUPPLY40" gate="G$1" pin="+9V"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -3068,9 +3354,9 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="SUPPLY8" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
-<wire x1="208.28" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="83.82" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="VDD"/>
-<label x="203.2" y="86.36" size="1.778" layer="95"/>
+<label x="269.24" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VEE" class="0">
@@ -3108,167 +3394,179 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$5" pin="V-"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="86.36" x2="279.4" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="88.9" x2="274.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="86.36" x2="276.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="86.36" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="83.82" x2="309.88" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C31" gate="G$1" pin="2"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="63.5" y1="134.62" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="V-"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="68.58" y1="116.84" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="GND"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
+<junction x="68.58" y="114.3"/>
 </segment>
 </net>
 <net name="CH3_OUT" class="0">
 <segment>
-<wire x1="254" y1="198.12" x2="264.16" y2="198.12" width="0.1524" layer="91"/>
-<label x="256.54" y="198.12" size="1.778" layer="95"/>
+<wire x1="314.96" y1="198.12" x2="322.58" y2="198.12" width="0.1524" layer="91"/>
+<label x="312.42" y="198.12" size="1.778" layer="95"/>
 <portref moduleinst="CH3" port="OUT"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$3" pin="IN+"/>
-<wire x1="106.68" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
-<label x="93.98" y="68.58" size="1.778" layer="95"/>
+<wire x1="172.72" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
+<label x="160.02" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VOL1_P2_CH1" class="0">
 <segment>
 <portref moduleinst="CH1" port="VOL1_P2"/>
-<wire x1="114.3" y1="182.88" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
-<label x="114.3" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="78.74" y1="182.88" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<label x="78.74" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VOL1_P3_CH1" class="0">
 <segment>
 <portref moduleinst="CH1" port="VOL1_P3"/>
-<wire x1="119.38" y1="182.88" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
-<label x="119.38" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="83.82" y1="182.88" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
+<label x="83.82" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GAIN1_P2_CH1" class="0">
 <segment>
 <portref moduleinst="CH1" port="GAIN1_P2"/>
-<wire x1="124.46" y1="182.88" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
-<label x="124.46" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="88.9" y1="182.88" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
+<label x="88.9" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GAIN1_P3_CH1" class="0">
 <segment>
 <portref moduleinst="CH1" port="GAIN1_P3"/>
-<wire x1="129.54" y1="182.88" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
-<label x="129.54" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="93.98" y1="182.88" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
+<label x="93.98" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VOL1_P2_CH2" class="0">
 <segment>
-<wire x1="170.18" y1="182.88" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="170.18" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="180.34" y1="182.88" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
+<label x="180.34" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH2" port="VOL1_P2"/>
 </segment>
 </net>
 <net name="VOL1_P3_CH2" class="0">
 <segment>
-<wire x1="175.26" y1="182.88" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="175.26" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="185.42" y1="182.88" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
+<label x="185.42" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH2" port="VOL1_P3"/>
 </segment>
 </net>
 <net name="GAIN1_P2_CH2" class="0">
 <segment>
-<wire x1="180.34" y1="182.88" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
-<label x="180.34" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="190.5" y1="182.88" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
+<label x="190.5" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH2" port="GAIN1_P2"/>
 </segment>
 </net>
 <net name="GAIN1_P3_CH2" class="0">
 <segment>
-<wire x1="185.42" y1="182.88" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
-<label x="185.42" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="195.58" y1="182.88" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="195.58" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH2" port="GAIN1_P3"/>
 </segment>
 </net>
 <net name="VOL1_P2_CH3" class="0">
 <segment>
-<wire x1="226.06" y1="182.88" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
-<label x="226.06" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="279.4" y1="182.88" x2="279.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="279.4" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH3" port="VOL1_P2"/>
 </segment>
 </net>
 <net name="VOL1_P3_CH3" class="0">
 <segment>
-<wire x1="231.14" y1="182.88" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
-<label x="231.14" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="284.48" y1="182.88" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
+<label x="284.48" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH3" port="VOL1_P3"/>
 </segment>
 </net>
 <net name="GAIN1_P2_CH3" class="0">
 <segment>
-<wire x1="236.22" y1="182.88" x2="236.22" y2="162.56" width="0.1524" layer="91"/>
-<label x="236.22" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="289.56" y1="182.88" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
+<label x="289.56" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH3" port="GAIN1_P2"/>
 </segment>
 </net>
 <net name="GAIN1_P3_CH3" class="0">
 <segment>
-<wire x1="241.3" y1="182.88" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
-<label x="241.3" y="162.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="294.64" y1="182.88" x2="294.64" y2="162.56" width="0.1524" layer="91"/>
+<label x="294.64" y="162.56" size="1.778" layer="95" rot="R90"/>
 <portref moduleinst="CH3" port="GAIN1_P3"/>
 </segment>
 </net>
 <net name="CH1_OUT" class="0">
 <segment>
 <portref moduleinst="CH1" port="OUT"/>
-<wire x1="142.24" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
-<label x="144.78" y="198.12" size="1.778" layer="95"/>
+<wire x1="114.3" y1="198.12" x2="124.46" y2="198.12" width="0.1524" layer="91"/>
+<label x="114.3" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN+"/>
-<wire x1="106.68" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
-<label x="93.98" y="124.46" size="1.778" layer="95"/>
+<wire x1="172.72" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
+<label x="160.02" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CH2_OUT" class="0">
 <segment>
-<wire x1="198.12" y1="198.12" x2="208.28" y2="198.12" width="0.1524" layer="91"/>
-<label x="200.66" y="198.12" size="1.778" layer="95"/>
+<wire x1="215.9" y1="198.12" x2="223.52" y2="198.12" width="0.1524" layer="91"/>
+<label x="213.36" y="198.12" size="1.778" layer="95"/>
 <portref moduleinst="CH2" port="OUT"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$2" pin="IN+"/>
-<wire x1="106.68" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="93.98" y="96.52" size="1.778" layer="95"/>
+<wire x1="172.72" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="160.02" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="137.16" y1="121.92" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="93.98" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<junction x="137.16" y="93.98"/>
-<wire x1="137.16" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="119.38" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="91.44" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="203.2" y="91.44"/>
+<wire x1="203.2" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$4" pin="IN+"/>
 <pinref part="R52" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="66.04" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$4" pin="IN-"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="88.9" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="86.36" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="78.74" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
-<junction x="152.4" y="78.74"/>
+<wire x1="218.44" y1="76.2" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="76.2" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
+<junction x="218.44" y="76.2"/>
 </segment>
 </net>
 <net name="MASTER_VOLUME1_P3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="78.74" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="76.2" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$4" pin="OUT"/>
-<wire x1="170.18" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="91.44" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
-<junction x="170.18" y="91.44"/>
-<label x="180.34" y="91.44" size="1.778" layer="95"/>
+<wire x1="236.22" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="88.9" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
+<junction x="236.22" y="88.9"/>
+<label x="246.38" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3279,44 +3577,168 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </net>
 <net name="MASTER_VOLUME1_P2" class="0">
 <segment>
-<wire x1="208.28" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
-<label x="180.34" y="88.9" size="1.778" layer="95"/>
+<wire x1="274.32" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="246.38" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="121.92" y1="109.22" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="106.68" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN-"/>
-<wire x1="106.68" y1="119.38" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="116.84" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R52" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
-<junction x="121.92" y="121.92"/>
+<wire x1="187.96" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<junction x="187.96" y="119.38"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="OUT"/>
-<wire x1="121.92" y1="81.28" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="78.74" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$2" pin="IN-"/>
-<wire x1="106.68" y1="91.44" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="88.9" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<junction x="121.92" y="93.98"/>
+<wire x1="190.5" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<junction x="187.96" y="91.44"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
 <pinref part="U1" gate="G$3" pin="OUT"/>
-<wire x1="121.92" y1="53.34" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="50.8" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$3" pin="IN-"/>
-<wire x1="106.68" y1="63.5" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="60.96" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<junction x="121.92" y="66.04"/>
+<wire x1="190.5" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="187.96" y="63.5"/>
+</segment>
+</net>
+<net name="SR_OUT_CH1" class="0">
+<segment>
+<portref moduleinst="CH1" port="SR-OUT"/>
+<wire x1="58.42" y1="203.2" x2="40.64" y2="203.2" width="0.1524" layer="91"/>
+<label x="40.64" y="203.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="50.8" y="99.06" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NO1"/>
+</segment>
+</net>
+<net name="SR_SEL_CH1" class="0">
+<segment>
+<portref moduleinst="CH1" port="SR-SELECT"/>
+<wire x1="58.42" y1="198.12" x2="40.64" y2="198.12" width="0.1524" layer="91"/>
+<label x="40.64" y="198.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="116.84" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="COM1"/>
+</segment>
+</net>
+<net name="SR_BYP_CH1" class="0">
+<segment>
+<portref moduleinst="CH1" port="SR-BYPASS"/>
+<wire x1="58.42" y1="193.04" x2="40.64" y2="193.04" width="0.1524" layer="91"/>
+<label x="40.64" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<label x="50.8" y="104.14" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NC1"/>
+</segment>
+</net>
+<net name="SR_OUT_CH2" class="0">
+<segment>
+<wire x1="160.02" y1="203.2" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
+<label x="142.24" y="203.2" size="1.778" layer="95"/>
+<portref moduleinst="CH2" port="SR-OUT"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="50.8" y="86.36" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NO2"/>
+</segment>
+</net>
+<net name="SR_SEL_CH2" class="0">
+<segment>
+<wire x1="160.02" y1="198.12" x2="142.24" y2="198.12" width="0.1524" layer="91"/>
+<label x="142.24" y="198.12" size="1.778" layer="95"/>
+<portref moduleinst="CH2" port="SR-SELECT"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<label x="116.84" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="COM2"/>
+</segment>
+</net>
+<net name="SR_BYP_CH2" class="0">
+<segment>
+<wire x1="160.02" y1="193.04" x2="142.24" y2="193.04" width="0.1524" layer="91"/>
+<label x="142.24" y="193.04" size="1.778" layer="95"/>
+<portref moduleinst="CH2" port="SR-BYPASS"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="50.8" y="91.44" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NC2"/>
+</segment>
+</net>
+<net name="SR_OUT_CH3" class="0">
+<segment>
+<wire x1="259.08" y1="203.2" x2="241.3" y2="203.2" width="0.1524" layer="91"/>
+<label x="241.3" y="203.2" size="1.778" layer="95"/>
+<portref moduleinst="CH3" port="SR-OUT"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="50.8" y="73.66" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NO3"/>
+</segment>
+</net>
+<net name="SR_SEL_CH3" class="0">
+<segment>
+<wire x1="259.08" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
+<label x="241.3" y="198.12" size="1.778" layer="95"/>
+<portref moduleinst="CH3" port="SR-SELECT"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="66.04" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="116.84" y="66.04" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="COM3"/>
+</segment>
+</net>
+<net name="SR_BYP_CH3" class="0">
+<segment>
+<wire x1="259.08" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
+<label x="241.3" y="193.04" size="1.778" layer="95"/>
+<portref moduleinst="CH3" port="SR-BYPASS"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
+<label x="50.8" y="78.74" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NC3"/>
+</segment>
+</net>
+<net name="SELECTOR" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="IN4"/>
+<pinref part="U13" gate="G$1" pin="IN3"/>
+<wire x1="99.06" y1="106.68" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="IN2"/>
+<wire x1="99.06" y1="111.76" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<junction x="99.06" y="111.76"/>
+<pinref part="U13" gate="G$1" pin="IN1"/>
+<wire x1="99.06" y1="116.84" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
+<junction x="99.06" y="116.84"/>
+<wire x1="99.06" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
+<junction x="99.06" y="121.92"/>
+<label x="114.3" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -3415,39 +3837,39 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <instance part="GND4" gate="1" x="340.36" y="182.88" smashed="yes" rot="R270">
 <attribute name="VALUE" x="338.074" y="185.166" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="TC_R" gate="G$1" x="53.34" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="58.928" y="110.236" size="1.016" layer="94" rot="MR0"/>
-<attribute name="VALUE" x="59.182" y="107.95" size="1.016" layer="94" rot="MR0"/>
+<instance part="TC_R" gate="G$1" x="50.8" y="68.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="56.388" y="84.836" size="1.016" layer="94" rot="MR0"/>
+<attribute name="VALUE" x="56.642" y="82.55" size="1.016" layer="94" rot="MR0"/>
 </instance>
-<instance part="GND6" gate="1" x="66.04" y="104.14" smashed="yes" rot="R90">
-<attribute name="VALUE" x="67.056" y="103.378" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="63.5" y="78.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="64.516" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="R17" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="104.9274" y="80.264" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="105.156" y="85.344" size="1.778" layer="96" rot="R90"/>
+<instance part="R17" gate="G$1" x="104.14" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.3874" y="54.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.616" y="59.944" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R18" gate="G$1" x="111.76" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="110.0074" y="80.264" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="110.236" y="85.598" size="1.778" layer="96" rot="R90"/>
+<instance part="R18" gate="G$1" x="109.22" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="107.4674" y="54.864" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.696" y="60.198" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="109.22" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="111.125" y="67.945" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY15" gate="G$1" x="106.68" y="45.72" smashed="yes" rot="R180">
+<attribute name="VALUE" x="108.585" y="42.545" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C4" gate="G$1" x="88.9" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="85.09" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.17" y="101.981" size="1.778" layer="96"/>
-<attribute name="MPN" x="88.9" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SUPPLIER" x="88.9" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MOUSERNR" x="88.9" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="LINK" x="88.9" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C4" gate="G$1" x="86.36" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.55" y="76.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="76.581" size="1.778" layer="96"/>
+<attribute name="MPN" x="86.36" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SUPPLIER" x="86.36" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSERNR" x="86.36" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LINK" x="86.36" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="88.9" y="93.98" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.09" y="91.059" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="90.17" y="91.059" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="88.9" y="93.98" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="SUPPLIER" x="88.9" y="93.98" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MOUSERNR" x="88.9" y="93.98" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="LINK" x="88.9" y="93.98" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="C5" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="MR270">
+<attribute name="NAME" x="82.55" y="65.659" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="87.63" y="65.659" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MPN" x="86.36" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" x="86.36" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MOUSERNR" x="86.36" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LINK" x="86.36" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="U2" gate="G$5" x="264.16" y="96.52" smashed="yes">
 <attribute name="NAME" x="265.43" y="100.33" size="1.778" layer="95"/>
@@ -3534,13 +3956,13 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="270.51" y="176.53" size="1.778" layer="95"/>
 <attribute name="VALUE" x="270.51" y="162.56" size="1.778" layer="96"/>
 </instance>
-<instance part="C17" gate="G$1" x="66.04" y="83.82" smashed="yes" rot="MR270">
-<attribute name="NAME" x="62.23" y="80.899" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="67.31" y="80.899" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MPN" x="66.04" y="83.82" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="SUPPLIER" x="66.04" y="83.82" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="MOUSERNR" x="66.04" y="83.82" size="1.778" layer="96" rot="MR270" display="off"/>
-<attribute name="LINK" x="66.04" y="83.82" size="1.778" layer="96" rot="MR270" display="off"/>
+<instance part="C17" gate="G$1" x="63.5" y="58.42" smashed="yes" rot="MR270">
+<attribute name="NAME" x="59.69" y="55.499" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="64.77" y="55.499" size="1.778" layer="96" rot="MR180"/>
+<attribute name="MPN" x="63.5" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="SUPPLIER" x="63.5" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MOUSERNR" x="63.5" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="LINK" x="63.5" y="58.42" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="C26" gate="G$1" x="259.08" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="253.619" y="93.726" size="1.778" layer="95" rot="R90"/>
@@ -3549,6 +3971,30 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="SUPPLIER" x="259.08" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MOUSERNR" x="259.08" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="LINK" x="259.08" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="U14" gate="G$1" x="68.58" y="121.92" smashed="yes">
+<attribute name="NAME" x="66.04" y="142.24" size="1.27" layer="94"/>
+<attribute name="VALUE" x="63.5" y="101.6" size="1.27" layer="94"/>
+</instance>
+<instance part="C32" gate="G$1" x="48.26" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.799" y="141.986" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="46.101" y="138.938" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="48.26" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="48.26" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSERNR" x="48.26" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="48.26" y="142.24" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="SUPPLY41" gate="G$1" x="35.56" y="137.16" smashed="yes" rot="R90">
+<attribute name="VALUE" x="31.877" y="137.795" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND34" gate="1" x="48.26" y="152.4" smashed="yes" rot="R180">
+<attribute name="VALUE" x="50.8" y="154.94" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND35" gate="1" x="50.8" y="132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="44.196" y="131.064" size="1.778" layer="96"/>
+</instance>
+<instance part="GND36" gate="1" x="86.36" y="124.46" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="92.964" y="123.444" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -3600,13 +4046,13 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="78.74" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="53.34" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="76.2" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="76.2" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
-<junction x="109.22" y="76.2"/>
+<wire x1="106.68" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="50.8" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="50.8" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<junction x="106.68" y="50.8"/>
 <pinref part="SUPPLY15" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -3746,42 +4192,46 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 </segment>
-</net>
-<net name="MASTER_RETURN_R" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="88.9" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
-<junction x="111.76" y="99.06"/>
-<wire x1="111.76" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
-<label x="116.84" y="99.06" size="1.778" layer="95"/>
+<pinref part="C32" gate="G$1" pin="2"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+<wire x1="48.26" y1="149.86" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND35" gate="1" pin="GND"/>
+<pinref part="U14" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND36" gate="1" pin="GND"/>
+<pinref part="U14" gate="G$1" pin="INH"/>
 </segment>
 </net>
-<net name="MASTER_RETURN_L" class="0">
+<net name="MASTER_OUT_R" class="0">
 <segment>
-<wire x1="111.76" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="88.9" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<junction x="106.68" y="93.98"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
-<label x="116.84" y="93.98" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="COM1"/>
+<wire x1="83.82" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<label x="109.22" y="111.76" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="MASTER_OUT_L" class="0">
+<segment>
+<pinref part="U14" gate="G$1" pin="COM2"/>
+<wire x1="83.82" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<label x="109.22" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="TC_R" gate="G$1" pin="P2"/>
-<wire x1="86.36" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="TC_R" gate="G$1" pin="P3"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+9V" class="0">
@@ -3792,6 +4242,15 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="C26" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="99.06" x2="259.08" y2="104.14" width="0.1524" layer="91"/>
 <junction x="259.08" y="104.14"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="137.16" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<junction x="48.26" y="137.16"/>
+<pinref part="SUPPLY41" gate="G$1" pin="+9V"/>
+<pinref part="U14" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="VOL1_P3" class="0">
@@ -3877,8 +4336,8 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="U2" gate="G$3" pin="OUT"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<label x="76.2" y="83.82" size="1.778" layer="95"/>
+<wire x1="68.58" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<label x="73.66" y="58.42" size="1.778" layer="95"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -3888,7 +4347,7 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="MASTER_BYP" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="185.42" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
@@ -3898,6 +4357,18 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <junction x="81.28" y="185.42"/>
 <pinref part="U2" gate="G$1" pin="IN-"/>
 <pinref part="U2" gate="G$1" pin="OUT"/>
+<wire x1="81.28" y1="185.42" x2="81.28" y2="205.74" width="0.1524" layer="91"/>
+<label x="81.28" y="187.96" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="27.94" y="124.46" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="NC1"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="27.94" y="111.76" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="NC2"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -3905,8 +4376,48 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="TC_R" gate="G$1" pin="P5"/>
 <pinref part="TC_R" gate="G$1" pin="P4"/>
-<wire x1="63.5" y1="83.82" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
-<junction x="63.5" y="83.82"/>
+<wire x1="60.96" y1="58.42" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
+<junction x="60.96" y="58.42"/>
+</segment>
+</net>
+<net name="MASTER_RETURN_R" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="63.5" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="109.22" y="73.66"/>
+<wire x1="109.22" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="139.7" y="73.66" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="27.94" y="119.38" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="NO1"/>
+</segment>
+</net>
+<net name="MASTER_RETURN_L" class="0">
+<segment>
+<wire x1="109.22" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="63.5" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<junction x="104.14" y="68.58"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<label x="139.7" y="68.58" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="27.94" y="106.68" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="NO2"/>
+</segment>
+</net>
+<net name="SELECTOR" class="0">
+<segment>
+<pinref part="U14" gate="G$1" pin="ADD"/>
+<wire x1="83.82" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
+<label x="109.22" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -3945,9 +4456,9 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="209.55" y="209.55" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.55" y="195.58" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$4" x="121.92" y="40.64" smashed="yes">
-<attribute name="NAME" x="120.65" y="46.99" size="1.778" layer="95"/>
-<attribute name="VALUE" x="120.65" y="33.02" size="1.778" layer="96"/>
+<instance part="U3" gate="G$4" x="144.78" y="40.64" smashed="yes">
+<attribute name="NAME" x="143.51" y="46.99" size="1.778" layer="95"/>
+<attribute name="VALUE" x="143.51" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
@@ -4044,33 +4555,33 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <attribute name="NAME" x="80.01" y="49.53" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="40.64" size="1.778" layer="96"/>
 </instance>
-<instance part="R41" gate="G$1" x="99.06" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.3074" y="46.736" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="102.108" y="46.736" size="1.778" layer="96" rot="R90"/>
+<instance part="R41" gate="G$1" x="121.92" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.1674" y="46.736" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="124.968" y="46.736" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R42" gate="G$1" x="99.06" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.3074" y="36.576" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="102.108" y="36.576" size="1.778" layer="96" rot="R90"/>
+<instance part="R42" gate="G$1" x="121.92" y="38.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.1674" y="36.576" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="124.968" y="36.576" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND16" gate="1" x="99.06" y="30.48" smashed="yes">
-<attribute name="VALUE" x="96.52" y="27.94" size="1.778" layer="96"/>
+<instance part="GND16" gate="1" x="121.92" y="30.48" smashed="yes">
+<attribute name="VALUE" x="119.38" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="109.22" y="40.64" smashed="yes">
-<attribute name="NAME" x="106.807" y="36.576" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="113.411" y="36.322" size="1.778" layer="96" rot="R90"/>
+<instance part="C11" gate="G$1" x="132.08" y="40.64" smashed="yes">
+<attribute name="NAME" x="129.667" y="36.576" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="136.271" y="36.322" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND17" gate="1" x="109.22" y="30.48" smashed="yes">
-<attribute name="VALUE" x="106.68" y="27.94" size="1.778" layer="96"/>
+<instance part="GND17" gate="1" x="132.08" y="30.48" smashed="yes">
+<attribute name="VALUE" x="129.54" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="139.7" y="38.1" smashed="yes">
-<attribute name="NAME" x="137.287" y="34.036" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="143.891" y="33.782" size="1.778" layer="96" rot="R90"/>
+<instance part="C12" gate="G$1" x="162.56" y="38.1" smashed="yes">
+<attribute name="NAME" x="160.147" y="34.036" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="166.751" y="33.782" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND18" gate="1" x="139.7" y="27.94" smashed="yes">
-<attribute name="VALUE" x="137.16" y="25.4" size="1.778" layer="96"/>
+<instance part="GND18" gate="1" x="162.56" y="27.94" smashed="yes">
+<attribute name="VALUE" x="160.02" y="25.4" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY25" gate="G$1" x="144.78" y="40.64" smashed="yes" rot="R270">
-<attribute name="VALUE" x="148.209" y="40.005" size="1.778" layer="96"/>
+<instance part="SUPPLY25" gate="G$1" x="167.64" y="40.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="171.069" y="40.005" size="1.778" layer="96"/>
 </instance>
 <instance part="R15" gate="G$1" x="63.5" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.7474" y="112.776" size="1.778" layer="95" rot="R90"/>
@@ -4202,6 +4713,18 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <instance part="U10" gate="G$1" x="53.34" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54.864" y="52.324" size="1.27" layer="94" rot="MR0"/>
 </instance>
+<instance part="U6" gate="G$5" x="104.14" y="45.72" smashed="yes">
+<attribute name="NAME" x="105.41" y="49.53" size="1.778" layer="95"/>
+<attribute name="VALUE" x="105.41" y="40.64" size="1.778" layer="96"/>
+</instance>
+<instance part="C33" gate="G$1" x="99.06" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="93.599" y="42.926" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="96.901" y="39.878" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="99.06" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="SUPPLIER" x="99.06" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSERNR" x="99.06" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="LINK" x="99.06" y="43.18" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4222,12 +4745,12 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="33.02" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="33.02" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="30.48" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="30.48" x2="162.56" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND19" gate="1" pin="GND"/>
@@ -4249,9 +4772,16 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="73.66" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
 <junction x="73.66" y="38.1"/>
 <junction x="63.5" y="38.1"/>
+<pinref part="U6" gate="G$5" pin="V-"/>
+<wire x1="104.14" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<junction x="78.74" y="38.1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="40.64" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<junction x="99.06" y="38.1"/>
 </segment>
 </net>
-<net name="MASTER_RETURN_L" class="0">
+<net name="MASTER_OUT_L" class="0">
 <segment>
 <wire x1="35.56" y1="134.62" x2="66.04" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="IN+"/>
@@ -4344,15 +4874,15 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 </segment>
 <segment>
 <pinref part="U3" gate="G$4" pin="IN-"/>
-<wire x1="116.84" y1="38.1" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="38.1" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$4" pin="OUT"/>
-<wire x1="116.84" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="27.94" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="27.94" x2="154.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="27.94" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
-<junction x="132.08" y="40.64"/>
-<wire x1="139.7" y1="40.64" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
-<junction x="139.7" y="40.64"/>
+<wire x1="162.56" y1="40.64" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="154.94" y="40.64"/>
+<wire x1="162.56" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
+<junction x="162.56" y="40.64"/>
 <pinref part="SUPPLY25" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
@@ -4513,11 +5043,11 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="R42" gate="G$1" pin="2"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$4" pin="IN+"/>
-<wire x1="99.06" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
-<junction x="99.06" y="43.18"/>
+<wire x1="121.92" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="121.92" y="43.18"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<junction x="109.22" y="43.18"/>
+<wire x1="132.08" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
+<junction x="132.08" y="43.18"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4656,7 +5186,7 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="U6" gate="G$1" pin="OUT"/>
 </segment>
 </net>
-<net name="MASTER_RETURN_R" class="0">
+<net name="MASTER_OUT_R" class="0">
 <segment>
 <wire x1="35.56" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IN+"/>
@@ -4692,11 +5222,18 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
 <junction x="73.66" y="53.34"/>
+<wire x1="99.06" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="48.26" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <junction x="63.5" y="53.34"/>
+<pinref part="U6" gate="G$5" pin="V+"/>
+<junction x="104.14" y="53.34"/>
+<pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="48.26" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
+<junction x="99.06" y="53.34"/>
 </segment>
 </net>
 </nets>
@@ -5162,14 +5699,14 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <junction x="261.62" y="172.72"/>
 </segment>
 </net>
-<net name="MASTER_RETURN_R" class="0">
+<net name="MASTER_OUT_R" class="0">
 <segment>
 <pinref part="U5" gate="G$2" pin="IN+"/>
 <wire x1="137.16" y1="175.26" x2="111.76" y2="175.26" width="0.1524" layer="91"/>
 <label x="111.76" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MASTER_RETURN_L" class="0">
+<net name="MASTER_OUT_L" class="0">
 <segment>
 <pinref part="U5" gate="G$4" pin="IN+"/>
 <wire x1="243.84" y1="175.26" x2="218.44" y2="175.26" width="0.1524" layer="91"/>
@@ -5226,8 +5763,12 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="71.12" y1="200.66" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
 <junction x="71.12" y="198.12"/>
 <pinref part="U11" gate="G$5" pin="V-"/>
-<wire x1="76.2" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
 <junction x="76.2" y="198.12"/>
+<pinref part="C30" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="200.66" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
+<junction x="96.52" y="198.12"/>
 </segment>
 <segment>
 <pinref part="MON_IN" gate="G$1" pin="P1"/>
@@ -5313,6 +5854,11 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <segment>
 <wire x1="330.2" y1="66.04" x2="363.22" y2="66.04" width="0.1524" layer="91"/>
 <label x="332.74" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<label x="33.02" y="38.1" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$4" pin="IN+"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -5456,13 +6002,6 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <label x="274.32" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MONITOR_VOLUME5_P4" class="0">
-<segment>
-<wire x1="33.02" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<label x="33.02" y="38.1" size="1.778" layer="95"/>
-<pinref part="U7" gate="G$4" pin="IN+"/>
-</segment>
-</net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="U7" gate="G$3" pin="IN-"/>
@@ -5534,8 +6073,12 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="71.12" y1="208.28" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
 <junction x="71.12" y="213.36"/>
 <pinref part="U11" gate="G$5" pin="V+"/>
-<wire x1="101.6" y1="213.36" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="213.36" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
 <junction x="76.2" y="213.36"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="213.36" x2="76.2" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="208.28" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
+<junction x="96.52" y="213.36"/>
 </segment>
 </net>
 <net name="MONITOR_MIX_R" class="0">
@@ -5808,6 +6351,20 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <instance part="R83" gate="G$1" x="91.44" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="89.6874" y="60.452" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.662" y="66.802" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R84" gate="G$1" x="93.98" y="88.9" smashed="yes">
+<attribute name="NAME" x="91.948" y="90.3986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.964" y="85.598" size="1.778" layer="96"/>
+</instance>
+<instance part="U12" gate="G$3" x="76.2" y="43.18" smashed="yes">
+<attribute name="NAME" x="73.66" y="48.26" size="1.016" layer="94"/>
+<attribute name="VALUE" x="73.66" y="40.64" size="1.016" layer="94"/>
+</instance>
+<instance part="GND37" gate="1" x="83.82" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="84.836" y="42.672" size="1.778" layer="96"/>
+</instance>
+<instance part="GND38" gate="1" x="66.04" y="43.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="59.436" y="42.418" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6110,6 +6667,17 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="91.44" y1="58.42" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
 <junction x="88.9" y="58.42"/>
 </segment>
+<segment>
+<pinref part="GND37" gate="1" pin="GND"/>
+<pinref part="U12" gate="G$3" pin="3"/>
+<pinref part="U12" gate="G$3" pin="1"/>
+<wire x1="81.28" y1="43.18" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
+<junction x="81.28" y="43.18"/>
+</segment>
+<segment>
+<pinref part="GND38" gate="1" pin="GND"/>
+<pinref part="U12" gate="G$3" pin="2"/>
+</segment>
 </net>
 <net name="MONITOR_VOLUME6_P6" class="0">
 <segment>
@@ -6134,13 +6702,6 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <segment>
 <pinref part="U12" gate="G$2" pin="2"/>
 <pinref part="SUPPLY39" gate="G$1" pin="+9V"/>
-</segment>
-</net>
-<net name="SELECTOR" class="0">
-<segment>
-<pinref part="U12" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<label x="91.44" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_RED" class="0">
@@ -6172,6 +6733,19 @@ Pushbutton Switches High Actuation Foot Switch 10mm dia Actuator, 11.5mm Bushing
 <wire x1="261.62" y1="149.86" x2="289.56" y2="149.86" width="0.1524" layer="91"/>
 <label x="289.56" y="149.86" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U9" gate="G$1" pin="P$22"/>
+</segment>
+</net>
+<net name="SELECTOR" class="0">
+<segment>
+<wire x1="99.06" y1="88.9" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<label x="114.3" y="88.9" size="1.778" layer="95" rot="MR0"/>
+<pinref part="R84" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U12" gate="G$1" pin="2"/>
+<pinref part="R84" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
