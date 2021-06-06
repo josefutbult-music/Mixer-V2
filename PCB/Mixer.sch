@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -2669,7 +2669,7 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <junction x="116.84" y="132.08"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="OUT" class="0">
 <segment>
 <pinref part="U2" gate="G$3" pin="IN-"/>
 <wire x1="297.18" y1="134.62" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
@@ -2679,6 +2679,7 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <wire x1="312.42" y1="124.46" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="137.16" x2="322.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="317.5" y="137.16" size="1.778" layer="95"/>
+<junction x="312.42" y="137.16"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3220,22 +3221,6 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <instance part="GND3" gate="1" x="294.64" y="215.9" smashed="yes" rot="R180">
 <attribute name="VALUE" x="295.148" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$1" x="177.8" y="119.38" smashed="yes">
-<attribute name="NAME" x="177.8" y="125.222" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.022" y="112.014" size="1.778" layer="96"/>
-</instance>
-<instance part="U1" gate="G$2" x="177.8" y="91.44" smashed="yes">
-<attribute name="NAME" x="179.07" y="97.79" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.53" y="83.82" size="1.778" layer="96"/>
-</instance>
-<instance part="U1" gate="G$3" x="177.8" y="63.5" smashed="yes">
-<attribute name="NAME" x="176.53" y="69.85" size="1.778" layer="95"/>
-<attribute name="VALUE" x="176.53" y="55.88" size="1.778" layer="96"/>
-</instance>
-<instance part="U1" gate="G$4" x="223.52" y="88.9" smashed="yes">
-<attribute name="NAME" x="222.25" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="222.25" y="81.28" size="1.778" layer="96"/>
-</instance>
 <instance part="R1" gate="G$1" x="218.44" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="216.6874" y="67.056" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="221.488" y="67.056" size="1.778" layer="96" rot="R90"/>
@@ -3304,6 +3289,22 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 </instance>
 <instance part="GND33" gate="1" x="66.04" y="114.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="59.436" y="113.284" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$2" x="177.8" y="119.38" smashed="yes">
+<attribute name="NAME" x="176.53" y="125.73" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="177.8" y="91.44" smashed="yes">
+<attribute name="NAME" x="176.53" y="97.79" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$3" x="223.52" y="88.9" smashed="yes">
+<attribute name="NAME" x="222.25" y="95.25" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.25" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$4" x="177.8" y="63.5" smashed="yes">
+<attribute name="NAME" x="176.53" y="69.85" size="1.778" layer="95"/>
+<attribute name="VALUE" x="176.53" y="55.88" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3418,9 +3419,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <portref moduleinst="CH3" port="OUT"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$3" pin="IN+"/>
 <wire x1="172.72" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
 <label x="160.02" y="66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$4" pin="IN+"/>
 </segment>
 </net>
 <net name="VOL1_P2_CH1" class="0">
@@ -3514,9 +3515,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <label x="114.3" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN+"/>
 <wire x1="172.72" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
 <label x="160.02" y="121.92" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$2" pin="IN+"/>
 </segment>
 </net>
 <net name="CH2_OUT" class="0">
@@ -3526,9 +3527,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <portref moduleinst="CH2" port="OUT"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$2" pin="IN+"/>
 <wire x1="172.72" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 <label x="160.02" y="93.98" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3537,24 +3538,24 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <wire x1="203.2" y1="91.44" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 <junction x="203.2" y="91.44"/>
 <wire x1="203.2" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$4" pin="IN+"/>
 <pinref part="R52" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$3" pin="IN+"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$4" pin="IN-"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="86.36" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="76.2" x2="218.44" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="76.2" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
 <junction x="218.44" y="76.2"/>
+<pinref part="U1" gate="G$3" pin="IN-"/>
 </segment>
 </net>
 <net name="MASTER_VOLUME1_P3" class="0">
@@ -3562,11 +3563,11 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="76.2" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$4" pin="OUT"/>
 <wire x1="236.22" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="88.9" x2="274.32" y2="88.9" width="0.1524" layer="91"/>
 <junction x="236.22" y="88.9"/>
 <label x="246.38" y="88.9" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$3" pin="OUT"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3583,37 +3584,37 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 </net>
 <net name="N$33" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="187.96" y1="106.68" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="IN-"/>
 <wire x1="172.72" y1="116.84" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R52" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$2" pin="IN-"/>
+<pinref part="U1" gate="G$2" pin="OUT"/>
 <junction x="187.96" y="119.38"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="U1" gate="G$2" pin="OUT"/>
 <wire x1="187.96" y1="78.74" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$2" pin="IN-"/>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="78.74" x2="187.96" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R53" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="IN-"/>
+<pinref part="U1" gate="G$1" pin="OUT"/>
 <junction x="187.96" y="91.44"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="U1" gate="G$3" pin="OUT"/>
 <wire x1="187.96" y1="50.8" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$3" pin="IN-"/>
 <wire x1="172.72" y1="60.96" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$4" pin="IN-"/>
+<pinref part="U1" gate="G$4" pin="OUT"/>
 <junction x="187.96" y="63.5"/>
 </segment>
 </net>
@@ -3624,9 +3625,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <label x="40.64" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
-<label x="50.8" y="99.06" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="NO1"/>
+<wire x1="68.58" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<label x="50.8" y="86.36" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NO2"/>
 </segment>
 </net>
 <net name="SR_SEL_CH1" class="0">
@@ -3636,9 +3637,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <label x="40.64" y="198.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<label x="116.84" y="76.2" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U13" gate="G$1" pin="COM1"/>
+<wire x1="99.06" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<label x="116.84" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="COM2"/>
 </segment>
 </net>
 <net name="SR_BYP_CH1" class="0">
@@ -3648,9 +3649,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <label x="40.64" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
-<label x="50.8" y="104.14" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="NC1"/>
+<wire x1="68.58" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="50.8" y="91.44" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NC2"/>
 </segment>
 </net>
 <net name="SR_OUT_CH2" class="0">
@@ -3660,9 +3661,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <portref moduleinst="CH2" port="SR-OUT"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
-<label x="50.8" y="86.36" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="NO2"/>
+<wire x1="68.58" y1="99.06" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<label x="50.8" y="99.06" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NO1"/>
 </segment>
 </net>
 <net name="SR_SEL_CH2" class="0">
@@ -3672,9 +3673,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <portref moduleinst="CH2" port="SR-SELECT"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
-<label x="116.84" y="71.12" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U13" gate="G$1" pin="COM2"/>
+<wire x1="99.06" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="116.84" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="COM1"/>
 </segment>
 </net>
 <net name="SR_BYP_CH2" class="0">
@@ -3684,9 +3685,9 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <portref moduleinst="CH2" port="SR-BYPASS"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
-<label x="50.8" y="91.44" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="NC2"/>
+<wire x1="68.58" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<label x="50.8" y="104.14" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="NC1"/>
 </segment>
 </net>
 <net name="SR_OUT_CH3" class="0">
@@ -6377,109 +6378,11 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <pinref part="U8" gate="G$1" pin="P$3"/>
 </segment>
 </net>
-<net name="VOL1_P3_CH1" class="0">
-<segment>
-<wire x1="127" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<label x="99.06" y="142.24" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$4"/>
-</segment>
-</net>
-<net name="GAIN1_P2_CH1" class="0">
-<segment>
-<wire x1="127" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
-<label x="99.06" y="139.7" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$5"/>
-</segment>
-</net>
-<net name="GAIN1_P3_CH1" class="0">
-<segment>
-<wire x1="127" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
-<label x="99.06" y="137.16" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$6"/>
-</segment>
-</net>
-<net name="VOL1_P2_CH2" class="0">
-<segment>
-<wire x1="127" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-<label x="99.06" y="134.62" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$7"/>
-</segment>
-</net>
-<net name="VOL1_P3_CH2" class="0">
-<segment>
-<wire x1="127" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
-<label x="99.06" y="132.08" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$8"/>
-</segment>
-</net>
-<net name="GAIN1_P2_CH2" class="0">
-<segment>
-<wire x1="127" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="99.06" y="129.54" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$9"/>
-</segment>
-</net>
-<net name="GAIN1_P3_CH2" class="0">
-<segment>
-<wire x1="127" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
-<label x="99.06" y="127" size="1.778" layer="95"/>
-<pinref part="U8" gate="G$1" pin="P$10"/>
-</segment>
-</net>
 <net name="VOL1_P2_CH3" class="0">
 <segment>
 <wire x1="127" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 <label x="99.06" y="124.46" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="P$11"/>
-</segment>
-</net>
-<net name="VOL1_P3_CH3" class="0">
-<segment>
-<wire x1="157.48" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
-<label x="185.42" y="124.46" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$12"/>
-</segment>
-</net>
-<net name="GAIN1_P2_CH3" class="0">
-<segment>
-<wire x1="157.48" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
-<label x="185.42" y="127" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$13"/>
-</segment>
-</net>
-<net name="GAIN1_P3_CH3" class="0">
-<segment>
-<wire x1="157.48" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<label x="185.42" y="129.54" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$14"/>
-</segment>
-</net>
-<net name="MASTER_VOLUME1_P3" class="0">
-<segment>
-<wire x1="185.42" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-<label x="185.42" y="134.62" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$16"/>
-</segment>
-</net>
-<net name="MASTER_VOLUME1_P2" class="0">
-<segment>
-<wire x1="157.48" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
-<label x="185.42" y="132.08" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$15"/>
-</segment>
-</net>
-<net name="GAIN1_P2" class="0">
-<segment>
-<wire x1="157.48" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
-<label x="185.42" y="137.16" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$17"/>
-</segment>
-</net>
-<net name="PRE_TC" class="0">
-<segment>
-<wire x1="185.42" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
-<label x="185.42" y="139.7" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$18"/>
 </segment>
 </net>
 <net name="GAIN3_P2" class="0">
@@ -6494,13 +6397,6 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <wire x1="185.42" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="185.42" y="149.86" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U8" gate="G$1" pin="P$22"/>
-</segment>
-</net>
-<net name="GAIN2_P2" class="0">
-<segment>
-<wire x1="157.48" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-<label x="185.42" y="142.24" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U8" gate="G$1" pin="P$19"/>
 </segment>
 </net>
 <net name="GAIN2_P3" class="0">
@@ -6538,13 +6434,6 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <pinref part="U9" gate="G$1" pin="P$4"/>
 </segment>
 </net>
-<net name="MONITOR_VOLUME1_P6" class="0">
-<segment>
-<wire x1="203.2" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<label x="203.2" y="139.7" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="P$5"/>
-</segment>
-</net>
 <net name="MONITOR_VOLUME4_P6" class="0">
 <segment>
 <wire x1="203.2" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
@@ -6566,32 +6455,11 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <pinref part="U9" gate="G$1" pin="P$7"/>
 </segment>
 </net>
-<net name="MONITOR_VOLUME1_P3" class="0">
-<segment>
-<wire x1="203.2" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
-<label x="203.2" y="137.16" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="P$6"/>
-</segment>
-</net>
 <net name="MONITOR_VOLUME2_P3" class="0">
 <segment>
 <wire x1="203.2" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="203.2" y="132.08" size="1.778" layer="95"/>
 <pinref part="U9" gate="G$1" pin="P$8"/>
-</segment>
-</net>
-<net name="MONITOR_VOLUME3_P3" class="0">
-<segment>
-<wire x1="203.2" y1="127" x2="231.14" y2="127" width="0.1524" layer="91"/>
-<label x="203.2" y="127" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="P$10"/>
-</segment>
-</net>
-<net name="MONITOR_VOLUME4_P3" class="0">
-<segment>
-<wire x1="289.56" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="289.56" y="124.46" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U9" gate="G$1" pin="P$12"/>
 </segment>
 </net>
 <net name="MONITOR_MIX_L" class="0">
@@ -6620,20 +6488,6 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <wire x1="289.56" y1="132.08" x2="261.62" y2="132.08" width="0.1524" layer="91"/>
 <label x="289.56" y="132.08" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U9" gate="G$1" pin="P$15"/>
-</segment>
-</net>
-<net name="MONITOR_VOLUME5_P2" class="0">
-<segment>
-<wire x1="289.56" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
-<label x="289.56" y="134.62" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U9" gate="G$1" pin="P$16"/>
-</segment>
-</net>
-<net name="MONITOR_VOLUME5_P5" class="0">
-<segment>
-<wire x1="289.56" y1="139.7" x2="261.62" y2="139.7" width="0.1524" layer="91"/>
-<label x="289.56" y="139.7" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U9" gate="G$1" pin="P$18"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -6746,6 +6600,153 @@ Analog Switch ICs SWITCH DPDT ENH 3V 65OHM 10MSOP IND</description>
 <segment>
 <pinref part="U12" gate="G$1" pin="2"/>
 <pinref part="R84" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME5_P5" class="0">
+<segment>
+<wire x1="99.06" y1="139.7" x2="127" y2="139.7" width="0.1524" layer="91"/>
+<label x="99.06" y="139.7" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$5"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME5_P2" class="0">
+<segment>
+<wire x1="99.06" y1="137.16" x2="127" y2="137.16" width="0.1524" layer="91"/>
+<label x="99.06" y="137.16" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$6"/>
+</segment>
+</net>
+<net name="GAIN1_P2_CH1" class="0">
+<segment>
+<wire x1="261.62" y1="139.7" x2="289.56" y2="139.7" width="0.1524" layer="91"/>
+<label x="289.56" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="P$18"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME4_P3" class="0">
+<segment>
+<wire x1="185.42" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
+<label x="185.42" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$19"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME1_P3" class="0">
+<segment>
+<wire x1="185.42" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="185.42" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$17"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME1_P6" class="0">
+<segment>
+<wire x1="185.42" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
+<label x="185.42" y="139.7" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$18"/>
+</segment>
+</net>
+<net name="MONITOR_VOLUME3_P3" class="0">
+<segment>
+<wire x1="185.42" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
+<label x="185.42" y="134.62" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$16"/>
+</segment>
+</net>
+<net name="MASTER_VOLUME1_P3" class="0">
+<segment>
+<wire x1="203.2" y1="127" x2="231.14" y2="127" width="0.1524" layer="91"/>
+<label x="203.2" y="127" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="P$10"/>
+</segment>
+</net>
+<net name="PRE_TC" class="0">
+<segment>
+<wire x1="289.56" y1="124.46" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
+<label x="289.56" y="124.46" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="P$12"/>
+</segment>
+</net>
+<net name="GAIN2_P2" class="0">
+<segment>
+<wire x1="231.14" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
+<label x="203.2" y="139.7" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="P$5"/>
+</segment>
+</net>
+<net name="GAIN1_P2" class="0">
+<segment>
+<wire x1="231.14" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="203.2" y="137.16" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="P$6"/>
+</segment>
+</net>
+<net name="MASTER_VOLUME1_P2" class="0">
+<segment>
+<wire x1="127" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
+<label x="99.06" y="142.24" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$4"/>
+</segment>
+</net>
+<net name="VOL1_P3_CH1" class="0">
+<segment>
+<wire x1="157.48" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
+<label x="185.42" y="132.08" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$15"/>
+</segment>
+</net>
+<net name="VOL1_P3_CH3" class="0">
+<segment>
+<wire x1="157.48" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
+<label x="185.42" y="127" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$13"/>
+</segment>
+</net>
+<net name="GAIN1_P2_CH3" class="0">
+<segment>
+<wire x1="157.48" y1="124.46" x2="185.42" y2="124.46" width="0.1524" layer="91"/>
+<label x="185.42" y="124.46" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$12"/>
+</segment>
+</net>
+<net name="GAIN1_P3_CH1" class="0">
+<segment>
+<wire x1="157.48" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<label x="185.42" y="129.54" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U8" gate="G$1" pin="P$14"/>
+</segment>
+</net>
+<net name="GAIN1_P2_CH2" class="0">
+<segment>
+<wire x1="261.62" y1="134.62" x2="289.56" y2="134.62" width="0.1524" layer="91"/>
+<label x="289.56" y="134.62" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="P$16"/>
+</segment>
+</net>
+<net name="VOL1_P3_CH2" class="0">
+<segment>
+<wire x1="127" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<label x="99.06" y="132.08" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$8"/>
+</segment>
+</net>
+<net name="GAIN1_P3_CH2" class="0">
+<segment>
+<wire x1="127" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<label x="99.06" y="134.62" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$7"/>
+</segment>
+</net>
+<net name="GAIN1_P3_CH3" class="0">
+<segment>
+<wire x1="127" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="99.06" y="129.54" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$9"/>
+</segment>
+</net>
+<net name="VOL1_P2_CH2" class="0">
+<segment>
+<wire x1="127" y1="127" x2="99.06" y2="127" width="0.1524" layer="91"/>
+<label x="99.06" y="127" size="1.778" layer="95"/>
+<pinref part="U8" gate="G$1" pin="P$10"/>
 </segment>
 </net>
 </nets>
